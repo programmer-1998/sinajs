@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# sinajs
-A web platform template to code easier 
-=======
-<<<<<<< HEAD
+
 # sinajs
 A web platform template to code easier 
 =======
