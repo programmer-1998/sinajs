@@ -1,0 +1,14 @@
+{
+  "key": "dark",
+  "name": "Dark",
+  "colors": {
+    "bg": "#0B0E14",
+    "fg": "#E6EAF2",
+    "accent": "#7C3AED",
+    "muted": "#94A3B8",
+    "gradientA": "#0EA5E9",
+    "gradientB": "#8B5CF6",
+    "glass": "rgba(17,24,39,0.6)"
+  }
+}
+

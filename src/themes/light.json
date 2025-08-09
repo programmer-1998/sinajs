@@ -1,0 +1,14 @@
+{
+  "key": "light",
+  "name": "Light",
+  "colors": {
+    "bg": "#F7F7FB",
+    "fg": "#0F1115",
+    "accent": "#7C3AED",
+    "muted": "#64748B",
+    "gradientA": "#A78BFA",
+    "gradientB": "#60A5FA",
+    "glass": "rgba(255,255,255,0.6)"
+  }
+}
+

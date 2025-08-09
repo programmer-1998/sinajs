@@ -1,0 +1,18 @@
+{
+  "code": "fa",
+  "name": "فارسی",
+  "dir": "rtl",
+  "strings": {
+    "hello_line": "سلام، این پلتفرم توسط {name} ساخته شده است",
+    "author_name": "سینا خانزاده",
+    "github_label": "github.com/programmer-1998",
+    "language": "زبان",
+    "theme": "تم",
+    "theme_system": "سیستمی",
+    "theme_light": "لایت",
+    "theme_dark": "دارک",
+    "lang_english": "انگلیسی",
+    "lang_persian": "فارسی"
+  }
+}
+

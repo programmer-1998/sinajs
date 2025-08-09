@@ -1,0 +1,17 @@
+{
+  "code": "en",
+  "name": "English",
+  "dir": "ltr",
+  "strings": {
+    "hello_line": "Hello, This is a platform created by {name}",
+    "author_name": "Sina Khanzadeh",
+    "github_label": "github.com/programmer-1998",
+    "language": "Language",
+    "theme": "Theme",
+    "theme_system": "System",
+    "theme_light": "Light",
+    "theme_dark": "Dark",
+    "lang_english": "English",
+    "lang_persian": "Persian"
+  }
+}

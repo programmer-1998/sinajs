@@ -1,0 +1,65 @@
+/* app/globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* مقادیر پیش‌فرض (می‌تونی بعداً با پلِ تم، از JSON ست‌شون کنی) */
+
+:root {
+    --bg: #F7F7FB;
+    --fg: #0F1115;
+    --accent: #7C3AED;
+    --muted: #64748B;
+    --gradientA: #A78BFA;
+    --gradientB: #60A5FA;
+    --glass: rgba(255, 255, 255, 0.6);
+}
+
+
+/* اگر تم دارک هم داری، معادل‌هاشو اینجا بذار */
+
+html.dark {
+    /* اینا نمونه‌ن؛ با مقادیر dark.json خودت عوض کن */
+    --bg: #0B0E14;
+    --fg: #E6EAF2;
+    --accent: #8B5CF6;
+    --muted: #94A3B8;
+    --gradientA: #0EA5E9;
+    --gradientB: #8B5CF6;
+    --glass: rgba(17, 24, 39, 0.6);
+}
+
+
+/* پس‌زمینه‌ی صفحه با استفاده از gradientA/B و bg */
+
+html,
+body {
+    min-height: 100%;
+}
+
+html {
+    /* اگر color-mix پشتیبانی نشه، حداقل var(--bg) دیده میشه */
+    background: radial-gradient(60% 60% at 50% 12%, color-mix(in srgb, var(--gradientA) 12%, transparent), transparent 60%), radial-gradient(60% 60% at 50% 88%, color-mix(in srgb, var(--gradientB) 10%, transparent), transparent 60%), var(--bg);
+    color: var(--fg);
+}
+
+
+/* Utilities مطابق کلیدهای JSON */
+
+.text-accent {
+    color: var(--accent);
+}
+
+.text-muted {
+    color: var(--muted);
+}
+
+.bg-glass {
+    background: var(--glass);
+    backdrop-filter: blur(16px) saturate(120%);
+    -webkit-backdrop-filter: blur(16px) saturate(120%);
+    /* مرز ظریف با تکیه روی رنگ متن فعال */
+    border: 1px solid color-mix(in srgb, var(--fg) 12%, transparent);
+    border-radius: 9999px;
+}
