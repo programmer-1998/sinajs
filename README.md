@@ -1,7 +1,4 @@
 
-# sinajs
-A web platform template to code easier 
-=======
 # SinaJS — Frontend Starter (Next.js + TypeScript + Tailwind)
 
 A batteries-included starter kit to kick off web apps fast — opinionated, clean, and extensible.
