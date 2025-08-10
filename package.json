@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "sina dev --turbopack",
+    "build": "sina build",
+    "start": "sina start",
+    "lint": "sina lint"
   },
   "dependencies": {
     "@nextui-org/react": "^2.6.11",
